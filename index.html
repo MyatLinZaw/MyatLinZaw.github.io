@@ -1,50 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="my">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile - [Your Name]</title>
+    <title>ကျွန်ုပ်၏ ကိုယ်ရေးမှတ်တမ်း</title>
     <style>
-        /* CSS Reset */
+        /* အခြေခံဒီဇိုင်း */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Pyidaungsu', 'Noto Sans Myanmar', sans-serif;
         }
 
         :root {
-            --primary-color: #3498db;
-            --secondary-color: #2ecc71;
-            --accent-color: #e74c3c;
-            --light-bg: #f9f9f9;
-            --dark-text: #333;
-            --light-text: #777;
+            --အဓိကအရောင်: #1e88e5;
+            --ဒုတိယအရောင်: #43a047;
+            --အခြားအရောင်: #e53935;
+            --နောက်ခံအရောင်: #f5f5f5;
+            --စာသားအရောင်: #333;
+            --ဖျော့သောစာသား: #666;
         }
 
         body {
-            background-color: var(--light-bg);
-            color: var(--dark-text);
+            background-color: var(--နောက်ခံအရောင်);
+            color: var(--စာသားအရောင်);
             line-height: 1.6;
         }
 
-        .container {
+        .အဓိကထည့်ရန် {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
         }
 
+        /* ခေါင်းစီး */
         header {
             text-align: center;
             margin-bottom: 30px;
             padding: 20px 0;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            background: linear-gradient(135deg, var(--အဓိကအရောင်), var(--ဒုတိယအရောင်));
             color: white;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
-        .profile-pic {
+        .ဓာတ်ပုံ {
             width: 150px;
             height: 150px;
             border-radius: 50%;
@@ -58,11 +59,12 @@
             margin-bottom: 10px;
         }
 
-        .tagline {
+        .ဆောင်ပုဒ် {
             font-style: italic;
             opacity: 0.9;
         }
 
+        /* အကြောင်းအရာများ */
         section {
             background: white;
             padding: 25px;
@@ -72,64 +74,64 @@
         }
 
         h2 {
-            color: var(--primary-color);
+            color: var(--အဓိကအရောင်);
             margin-bottom: 15px;
             padding-bottom: 8px;
-            border-bottom: 2px solid var(--light-bg);
+            border-bottom: 2px solid var(--နောက်ခံအရောင်);
         }
 
-        .hobby {
+        .ဝါသနာ {
             display: flex;
             align-items: center;
             margin-bottom: 15px;
         }
 
-        .hobby-icon {
+        .ဝါသနာအိုင်ကွန် {
             font-size: 1.5rem;
             margin-right: 15px;
-            color: var(--accent-color);
+            color: var(--အခြားအရောင်);
             width: 40px;
             text-align: center;
         }
 
-        .contact-list {
+        .ဆက်သွယ်ရန်စာရင်း {
             list-style: none;
         }
 
-        .contact-list li {
+        .ဆက်သွယ်ရန်စာရင်း li {
             margin-bottom: 10px;
         }
 
-        .contact-list a {
-            color: var(--primary-color);
+        .ဆက်သွယ်ရန်စာရင်း a {
+            color: var(--အဓိကအရောင်);
             text-decoration: none;
             transition: all 0.3s;
         }
 
-        .contact-list a:hover {
-            color: var(--accent-color);
+        .ဆက်သွယ်ရန်စာရင်း a:hover {
+            color: var(--အခြားအရောင်);
             text-decoration: underline;
         }
 
-        .quote {
+        .အဆိုအမိန့် {
             font-style: italic;
             text-align: center;
             padding: 20px;
             background-color: #f0f8ff;
-            border-left: 4px solid var(--primary-color);
+            border-left: 4px solid var(--အဓိကအရောင်);
             margin: 20px 0;
         }
 
         footer {
             text-align: center;
             padding: 20px;
-            color: var(--light-text);
+            color: var(--ဖျော့သောစာသား);
             font-size: 0.9rem;
         }
 
-        /* Responsive Design */
+        /* မိုဘိုင်းဖုန်းအတွက် */
         @media (max-width: 600px) {
-            .container {
+            .အဓိကထည့်ရန် {
                 padding: 10px;
             }
             
@@ -148,68 +150,68 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="အဓိကထည့်ရန်">
         <header>
-            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic">
-            <h1>[Your Name]</h1>
-            <p class="tagline">High School Student | Football Lover | Tech Enthusiast</p>
+            <img src="https://via.placeholder.com/150" alt="ဓာတ်ပုံ" class="ဓာတ်ပုံ">
+            <h1>[မန်းမြတ်လင်းဇော််]</h1>
+            <p class="ဆောင်ပုဒ်">အထက်တန်းကျောင်းသား | ဘောလုံးဝါသနာရှင် | နည်းပညာစိတ်ဝင်စားသူ</p>
         </header>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm a high school student at Taung Kalay Monk's Education School. I'm passionate about football, technology, and spending quality time with friends. I enjoy learning about media and digital arts in my free time.</p>
+        <section id="ကျွန်ုပ်အကြောင်း">
+            <h2>ကျွန်ုပ်အကြောင်း</h2>
+            <p>မင်္ဂလာပါ! ကျွန်ုပ်သည် တောင်ကလေးဘုန်းတော်ကြီးသင်ပညာရေးကျောင်းမှ အထက်တန်းကျောင်းသားတစ်ဦးဖြစ်ပါသည်။ ဘောလုံးကစားခြင်း၊ နည်းပညာနှင့် သူငယ်ချင်းများနှင့်အချိန်ဖြုန်းခြင်းကို အထူးနှစ်သက်ပါသည်။</p>
             
-            <div class="quote">
-                "Every effort is a step toward success."
+            <div class="အဆိုအမိန့်">
+                "ကြိုးစားမှုတိုင်းသည် အောင်မြင်မှုဆီသို့ ခြေလှမ်းတစ်ခုပါပဲ။"
             </div>
         </section>
 
-        <section id="education">
-            <h2>Education</h2>
-            <p><strong>School:</strong> Taung Kalay Monk's Education School</p>
-            <p><strong>Grade Level:</strong> High School (Grade 10/11/12)</p>
-            <p><strong>Favorite Subjects:</strong> Math, English, Computer</p>
+        <section id="ပညာရေး">
+            <h2>ပညာရေး</h2>
+            <p><strong>ကျောင်း:</strong> တောင်ကလေးဘုန်းတော်ကြီးသင်ပညာရေးကျောင်း</p>
+            <p><strong>တက်ရောက်နေသောအတန်း:</strong> အထက်တန်း (အဆင့် ၁၀/၁၁/၁၂)</p>
+            <p><strong>အကြိုက်ဆုံးဘာသာရပ်များ:</strong> သင်္ချာ၊ အင်္ဂလိပ်စာ၊ ကွန်ပျူတာ</p>
         </section>
 
-        <section id="hobbies">
-            <h2>My Hobbies</h2>
+        <section id="ဝါသနာများ">
+            <h2>ကျွန်ုပ်၏ ဝါသနာများ</h2>
             
-            <div class="hobby">
-                <div class="hobby-icon">⚽</div>
+            <div class="ဝါသနာ">
+                <div class="ဝါသနာအိုင်ကွန်">⚽</div>
                 <div>
-                    <h3>Football</h3>
-                    <p>I love playing football with friends. It's my favorite way to relieve stress and stay active.</p>
+                    <h3>ဘောလုံး</h3>
+                    <p>သူငယ်ချင်းများနှင့် ဘောလုံးကစားရတာကို အထူးနှစ်သက်ပါသည်။ စိတ်ဖိစီးမှုများပြေလျော့စေပြီး ကျန်းမာရေးအတွက်လည်း ကောင်းမွန်ပါသည်။</p>
                 </div>
             </div>
             
-            <div class="hobby">
-                <div class="hobby-icon">📱</div>
+            <div class="ဝါသနာ">
+                <div class="ဝါသနာအိုင်ကွန်">📱</div>
                 <div>
-                    <h3>Media & Technology</h3>
-                    <p>I enjoy learning about digital media, news technology, and creative design.</p>
+                    <h3>မီဒီယာနှင့်နည်းပညာ</h3>
+                    <p>ဒီဂျစ်တယ်မီဒီယာ၊ သတင်းနည်းပညာနှင့် ဖန်တီးမှုဆိုင်ရာအကြောင်းအရာများကို လေ့လာရတာ ဝါသနာပါသည်။</p>
                 </div>
             </div>
             
-            <div class="hobby">
-                <div class="hobby-icon">🎮</div>
+            <div class="ဝါသနာ">
+                <div class="ဝါသနာအိုင်ကွန်">🎮</div>
                 <div>
-                    <h3>Gaming</h3>
-                    <p>Playing games like Mobile Legends, Free Fire, and FIFA with friends is my favorite leisure activity.</p>
+                    <h3>ဂိမ်းကစားခြင်း</h3>
+                    <p>မိုဘိုင်းလ်ဂိမ်းများဖြစ်သည့် Mobile Legends, Free Fire နှင့် FIFA တို့ကို သူငယ်ချင်းများနှင့်အတူကစားရတာ နှစ်သက်ပါသည်။</p>
                 </div>
             </div>
         </section>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <ul class="contact-list">
-                <li><strong>Facebook:</strong> <a href="#">[Your Facebook Profile]</a></li>
-                <li><strong>Instagram:</strong> <a href="#">[Your Instagram Handle]</a></li>
-                <li><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+        <section id="ဆက်သွယ်ရန်">
+            <h2>ဆက်သွယ်ရန်</h2>
+            <ul class="ဆက်သွယ်ရန်စာရင်း">
+                <li><strong>Facebook:</strong> <a href="#">[သင့် Facebook အကောင့်]</a></li>
+                <li><strong>Instagram:</strong> <a href="#">[သင့် Instagram အကောင့်]</a></li>
+                <li><strong>အီးမေးလ်:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
             </ul>
         </section>
 
         <footer>
-            &copy; 2023 [Your Name]. All rights reserved.
+            &copy; ၂၀၂၅ [မန်းမြတ်လင်းဇေ်]. အခွင့်အရေးအားလုံးရှိသည်။
         </footer>
     </div>
 </body>
