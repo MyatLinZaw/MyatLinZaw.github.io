@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - [Your Name]</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --accent-color: #e74c3c;
+            --light-bg: #f9f9f9;
+            --dark-text: #333;
+            --light-text: #777;
+        }
+
+        body {
+            background-color: var(--light-bg);
+            color: var(--dark-text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px 0;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--light-bg);
+        }
+
+        .hobby {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .hobby-icon {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            color: var(--accent-color);
+            width: 40px;
+            text-align: center;
+        }
+
+        .contact-list {
+            list-style: none;
+        }
+
+        .contact-list li {
+            margin-bottom: 10px;
+        }
+
+        .contact-list a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .contact-list a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+
+        .quote {
+            font-style: italic;
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f8ff;
+            border-left: 4px solid var(--primary-color);
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--light-text);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            header {
+                padding: 15px 0;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic">
+            <h1>[Your Name]</h1>
+            <p class="tagline">High School Student | Football Lover | Tech Enthusiast</p>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm a high school student at Taung Kalay Monk's Education School. I'm passionate about football, technology, and spending quality time with friends. I enjoy learning about media and digital arts in my free time.</p>
+            
+            <div class="quote">
+                "Every effort is a step toward success."
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>School:</strong> Taung Kalay Monk's Education School</p>
+            <p><strong>Grade Level:</strong> High School (Grade 10/11/12)</p>
+            <p><strong>Favorite Subjects:</strong> Math, English, Computer</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            
+            <div class="hobby">
+                <div class="hobby-icon">⚽</div>
+                <div>
+                    <h3>Football</h3>
+                    <p>I love playing football with friends. It's my favorite way to relieve stress and stay active.</p>
+                </div>
+            </div>
+            
+            <div class="hobby">
+                <div class="hobby-icon">📱</div>
+                <div>
+                    <h3>Media & Technology</h3>
+                    <p>I enjoy learning about digital media, news technology, and creative design.</p>
+                </div>
+            </div>
+            
+            <div class="hobby">
+                <div class="hobby-icon">🎮</div>
+                <div>
+                    <h3>Gaming</h3>
+                    <p>Playing games like Mobile Legends, Free Fire, and FIFA with friends is my favorite leisure activity.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <ul class="contact-list">
+                <li><strong>Facebook:</strong> <a href="#">[Your Facebook Profile]</a></li>
+                <li><strong>Instagram:</strong> <a href="#">[Your Instagram Handle]</a></li>
+                <li><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            &copy; 2023 [Your Name]. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
